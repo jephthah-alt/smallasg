@@ -1,0 +1,114 @@
+
+  @media screen and (max-width: 768px){
+    .column {
+      flex: 0 0 50%;
+    }
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+      
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+      }
+      
+      .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+      .column1{
+        width: 50%;
+      }
+      .column2{
+        width: 50%;
+      }
+      .row2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+      .column11{
+        width: 100%;
+      }
+      .column h2 {
+        margin-bottom: 10px;
+      }
+  }
+   
+
+      @media screen and (max-width: 320px) {
+        .column {
+          flex: 0 0 50%;
+        }
+        body{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+          
+          body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+          }
+          
+          .container {
+            max-width: 768px;
+            margin: 0 auto;
+            padding: 20px;
+          }
+          
+          header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+          }
+          
+    
+          .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            width: 100%;
+          }
+          .column1{
+            width: 50%;
+          }
+          .column2{
+            width: 50%;
+          }
+          .row2 {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            width: 100%;
+          }
+          .column11{
+            width: 100%;
+          }
+          .column h2 {
+            margin-bottom: 10px;
+          }
+      }
+
